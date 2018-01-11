@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .header .contact .layer ul {
+    float: none; }
+    .header .contact .layer ul li {
+      float: none;
+      list-style: none; }
+      .header .contact .layer ul li:nth-child(-n+2) {
+        padding: 0; }
+      .header .contact .layer ul li:after {
+        content: "•"; } }
+
+@media screen and (min-width: 501px) and (max-width: 992px) {
+  .container .row div .header .container .navbar a {
+    font-size: 14px;
+    margin-left: 5px;
+    padding: 3px 15px; }
+  .container .row .content .links .btn-responsive {
+    padding: 4px 9px;
+    font-size: 90%;
+    line-height: 1.2; }
+  .container .row .media {
+    height: 400px; }
+  .container .row .footer .call h1 {
+    font-size: 36px; }
+  .container .row .footer .contact p {
+    font-size: inherit; }
+  .container .row .footer .contact ul li {
+    font-size: inherit; } }
+
+@media screen and (max-width: 767px) {
+  .container .row .header .contact {
+    text-align: left; }
+    .container .row .header .contact ul {
+      float: none;
+      list-style-position: inside; }
+      .container .row .header .contact ul li {
+        margin-bottom: 10px;
+        float: none; }
+  .container .row .content .links .row .lor {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0; }
+  .container .row .content .links .row .appts {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0; }
+  .container .row .media {
+    height: 300px; }
+  .container .row .footer .call h1 {
+    font-size: 36px; }
+  .container .row .footer .contact {
+    border: 0; }
+    .container .row .footer .contact p {
+      font-size: inherit; }
+    .container .row .footer .contact ul li {
+      font-size: inherit; } }
+
+@media screen and (max-width: 500px) {
+  .container .row .media {
+    height: 200px; }
+  .container .row .content .links .btn-responsive {
+    padding: 2px 4px;
+    font-size: 80%;
+    line-height: 1;
+    border-radius: 3px; }
+  .container .row .footer .map h1 {
+    font-size: 36px; }
+  .container .row .footer .contact p {
+    font-size: inherit; }
+  .container .row .footer .contact ul li {
+    font-size: inherit; } }

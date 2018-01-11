@@ -1,0 +1,110 @@
+
+
+@media screen and (min-width: 767px) and (max-width: 992px)
+  .header
+    .contact
+      .layer
+        ul
+          float: none
+          li
+            float: none
+            list-style: none
+            &:nth-child(-n+2)
+              padding: 0
+            &:after
+              content: "•"
+
+@media screen and (min-width: 501px) and (max-width: 992px)
+  .container
+    .row
+      div
+        .header
+          .container
+            .navbar
+              a
+                font-size: 14px
+                margin-left: 5px
+                padding: 3px 15px
+      .content
+        .links
+          .btn-responsive
+            padding: 4px 9px
+            font-size: 90%
+            line-height: 1.2
+
+      .media
+        height: 400px
+
+      .footer
+        .call
+          h1
+            font-size: 36px
+        .contact
+          p
+            font-size: inherit
+          ul
+            li
+              font-size: inherit
+
+//@media screen and (orientation: landscape) and (max-device-width: 900px)
+
+@media screen and (max-width: 767px)
+
+
+
+  .container
+    .row
+      .header
+        .contact
+          text-align: left
+          ul
+            float: none
+            list-style-position: inside
+            li
+              margin-bottom: 10px
+              float: none
+      .content
+        .links
+          .row
+            .lor
+              border-bottom-left-radius: 0
+              border-top-left-radius: 0
+            .appts
+              border-bottom-right-radius: 0
+              border-top-right-radius: 0
+      .media
+        height: 300px
+      .footer
+        .call
+          h1
+            font-size: 36px
+        .contact
+          border: 0
+          p
+            font-size: inherit
+          ul
+            li
+              font-size: inherit
+
+@media screen and (max-width: 500px)
+  .container
+    .row
+      .media
+        height: 200px
+      .content
+        .links
+          .btn-responsive
+            padding: 2px 4px
+            font-size: 80%
+            line-height: 1
+            border-radius: 3px
+      .footer
+        .map
+          h1
+            font-size: 36px
+        .contact
+          p
+            font-size: inherit
+          ul
+            li
+              font-size: inherit
